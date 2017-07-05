@@ -35,5 +35,7 @@
 .tramp_history
 .python-version
 .mbed
+helium/
+mbed-os/
 BUILD
 TAGS
