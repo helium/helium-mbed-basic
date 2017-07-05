@@ -1,6 +1,6 @@
 /*
  * Copyright 2017, Helium Systems, Inc.
- * All Rights Reserved. See LICENCE.txt for license information
+ * All Rights Reserved. See LICENSE.txt for license information
  */
 
 #include "mbed.h"
@@ -31,7 +31,7 @@ void report_status_result(int status, int result)
 
 
 #if defined(TARGET_K64F)
-Helium helium(PTC4, PTC3); // TX:D9, RX:D7
+Helium helium(D9, D7); // TX:D9, RX:D7
 #elif defined(TARGET_WIZwiki_W7500)
 Helium helium(D1, D0);
 #else
