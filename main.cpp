@@ -5,6 +5,7 @@
 
 #include "mbed.h"
 #include "Helium.h"
+#define __STDC_FORMAT_MACROS
 #include <inttypes.h>
 
 void report_status(int status)
