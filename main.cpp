@@ -53,7 +53,7 @@ int main()
     report_status(status);
 
     printf("Connecting - ");
-    status = helium.connect(NULL, HELIUM_POLL_RETRIES_5S * 10);
+    status = helium.connect();
     report_status(status);
 
     printf("Creating Channel - ");
