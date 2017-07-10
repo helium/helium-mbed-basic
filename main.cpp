@@ -45,6 +45,9 @@ int main()
 {
     printf("Starting\n");
 
+    // Let the Atom start up
+    wait(0.1);
+
     printf("Info - ");
     struct helium_info info;
     int status = helium.info(&info);
