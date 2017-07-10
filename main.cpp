@@ -62,7 +62,7 @@ int main()
 
     printf("Creating Channel - ");
     int8_t result;
-    status = channel.begin("Helium Cloud MQTT", &result);
+    status = channel.begin("Helium MQTT", &result);
     report_status(status);
 
     printf("Sending - ");
